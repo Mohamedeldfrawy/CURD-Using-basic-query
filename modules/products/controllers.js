@@ -3,7 +3,6 @@
 import {db} from '../../index.js'
 
  const addProduct = (req,res)=>{
-  // const id= req.params.id
 const {name,description,price,quantity,user_id}=req.body
 
 
